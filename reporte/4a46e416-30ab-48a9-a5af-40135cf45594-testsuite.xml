@@ -1,0 +1,76 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1527409172336" stop="1527409172385">
+  <name>test_search</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1527409172336" status="passed" stop="1527409172341">
+      <name>Test_001.test_hello[1]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="74092-MainThread"/>
+        <label name="host" value="fengyanyandeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1527409172340" status="passed" stop="1527409172340">
+          <name>测试步骤001</name>
+          <title>测试步骤001</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1527409172343" status="failed" stop="1527409172383">
+      <name>Test_001.test_hello[2]</name>
+      <failure>
+        <message>AssertionError: assert 2 != 2</message>
+        <stack-trace>self = &lt;test_search.Test_001 object at 0x108983588&gt;, a = 2
+
+    @allure.step(title='测试步骤001')
+    @pytest.mark.parametrize('a', [1, 2, 3])
+    def test_hello(self, a):
+        # allure.attach('描述', '测试步骤001的描述')
+&gt;       assert a != 2
+E       assert 2 != 2
+
+scripts/test_search.py:8: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="74092-MainThread"/>
+        <label name="host" value="fengyanyandeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1527409172344" status="failed" stop="1527409172344">
+          <name>测试步骤001</name>
+          <title>测试步骤001</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1527409172384" status="passed" stop="1527409172385">
+      <name>Test_001.test_hello[3]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="74092-MainThread"/>
+        <label name="host" value="fengyanyandeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1527409172385" status="passed" stop="1527409172385">
+          <name>测试步骤001</name>
+          <title>测试步骤001</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
